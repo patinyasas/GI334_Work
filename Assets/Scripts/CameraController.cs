@@ -10,7 +10,7 @@ public class CameraController : MonoBehaviour
     [SerializeField]
     private float yInput;
     [SerializeField]
-    private float moveSpeed = 20;
+    private int moveSpeed = 20;
     public static CameraController instance;
 
     private void Awake()
